@@ -1,0 +1,42 @@
+.layout{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar{
+    width: 25%;
+}
+.avatar{
+    background-image: url(../images/avatar.png);
+    height: 150px;
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+.hero{
+    height:100vh;
+    background-image: url(../images/hero-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main{
+    width: 75%;
+}
+
+.hero div{
+    width: max-content;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
